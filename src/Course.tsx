@@ -4,6 +4,7 @@ interface CourseProps {
   studentPositions: number;
 }
 
+
 function Course({ name, courseId, studentPositions }: CourseProps) {
   return (
     <div className="course">
